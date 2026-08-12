@@ -2,96 +2,146 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: S. M. Bargeen Alam Turzo
+    - name: Location
+      value: Brooklyn, New York
+    - name: Email
+      value: smbargeen@gmail.com
+    - name: Research Interests
+      value: Protein and antibody design, quantum chemistry, machine learning for structural biology, GPU-accelerated scientific software
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Chemistry
+      institution: Ohio State University
+      year: 2018 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Dissertation: Incorporating Sparse Data to Enhance Computational Modeling of Protein Structures"
+        - "Coursework: quantum chemistry, statistical mechanics, computational modeling of protein structures, linear algebra"
+    - title: MSc, Chemistry
+      institution: Cleveland State University
+      year: 2017 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - "Coursework: biochemistry, analytical chemistry"
+    - title: BA, Chemistry
+      institution: Ohio Wesleyan University
+      year: 2012 - 2016
+      description:
+        - "Coursework: physical chemistry, differential equations, game theory"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Principal Research Scientist
+      institution: GSK, Upper Providence, PA
+      year: 2026 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Benchmarking foundation AI models for antibody design
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Designed and executed benchmarking studies of state-of-the-art foundation models for antibody design, evaluating their potential to accelerate development of bispecific, trispecific, and other complex antibody therapeutics.
+        - title: De novo model development for antibody discovery
+          contents:
+            - Leading development of a novel foundation model architecture purpose-built for antibody discovery, optimizing model performance and establishing scaling laws to guide efficient, high-impact training.
+        - title: Antibody sequence optimization with quantum chemistry
+          contents:
+            - Integrating quantum chemistry methods with antibody sequence optimization to capture fine-grained electronic and structural properties that influence binding affinity, stability, and specificity.
+
+    - title: Research Fellow
+      institution: Flatiron Institute (Simons Foundation), New York, NY
+      year: 2023 - 2026
       description:
-        - Description 1.
-        - Description 2.
+        - title: Autonomous agentic workflow for protein and heteropolymer design
+          contents:
+            - Designed an autonomous LLM agent integrated with the Rosetta modeling suite for iterative protein and heteropolymer design, including non-canonical amino acids and custom geometries. Benchmarked against ML models and human experts with comparable performance on canonical and non-canonical tasks.
+        - title: Benchmarking foundation models for structure prediction
+          contents:
+            - Executed rigorous benchmarking of state-of-the-art foundation models for ternary complex (molecular glue) structure prediction across diverse protein-ligand systems.
+        - title: Integrative modeling in cross-company collaboration
+          contents:
+            - Led integration of foundation-model predictions and perturbation modeling with experimental data in partnership with a biotech startup, working with wet-lab and computational teams to validate models and guide iterative optimization of molecular glue designs.
+        - title: Computational protein design for drug discovery
+          contents:
+            - Designed hinge proteins with tunable domain motions to enable therapeutic mechanism exploration, collaborating with pharmaceutical and academic partners for experimental validation.
+        - title: Scientific software engineering
+          contents:
+            - Engineered core components of the Masala software suite, developing GPU-accelerated therapeutic design algorithms that significantly improved scalability and computational efficiency.
+        - title: Computational peptide design
+          contents:
+            - Built algorithms and workflows integrating Rosetta and quantum chemistry to model and optimize cyclic peptides, supporting potency and stability optimization in therapeutic development programs.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern
+      institution: Flatiron Institute (Simons Foundation), New York, NY
+      year: 2022
       description:
+        - Developed a Rosetta application for designing cyclic peptide crosslinkers by optimizing the Rosetta force field against quantum chemistry.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine Learning in Protein Design
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - AlphaFold, RFdiffusion, ProteinMPNN, BoltzGen, Boltz-2, AgentRosetta
+    - title: Computational Molecular Modeling
       items:
-        - Description 1.
-        - Description 2.
+        - Rosetta, Masala, Schrödinger Suite, MDTraj, MDAnalysis, Biotite, ChimeraX, PyMOL, cryoSPARC, VMD
+    - title: Molecular Dynamics and Simulation
+      items:
+        - GROMACS, NAMD, OpenMM, BioEmu
+    - title: High-Performance Computing
+      items:
+        - GPU acceleration, HPC clusters, Linux, Bash, SLURM
+    - title: Programming and Data Analysis
+      items:
+        - Python (NumPy, Pandas, scikit-learn), C++, PyTorch Lightning, SYCL, VTune, NVIDIA Nsight
 
-- title: Other Interests
-  type: list
+- title: Professional Service
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Peer Reviewer
+      items:
+        - Nature Communications
+        - Angewandte Chemie International Edition
+        - Computational Biology and Chemistry (Elsevier)
+        - PLOS ONE
+
+- title: Selected Conferences
+  type: time_table
+  contents:
+    - title: "Design and Characterization of Hinge Proteins with Constrained Motion (poster)"
+      institution: Gordon Research Conference, Protein Folding and Dynamics
+      year: 2026
+    - title: INCITE GPU Hackathon
+      institution: Argonne Leadership Computing Facility, Argonne National Laboratory
+      year: 2024
+    - title: "Protein Structure Prediction and Design with RosettaQM (poster)"
+      institution: Frontiers in Native Mass Spectrometry and Single Molecule Imaging
+      year: 2023
+    - title: "Integrative Modeling in the Age of Machine Learning (talk)"
+      institution: Dow Student Seminar
+      year: 2022
+    - title: "Protein shape sampled by ion mobility mass spectrometry consistently improves protein structure prediction (talk)"
+      institution: Pfizer Biotech Connect
+      year: 2022
+    - title: "Protein shape sampled by ion mobility mass spectrometry (poster)"
+      institution: Rosetta Summer Conference, Leavenworth, WA
+      year: 2021
+    - title: "Protein Structure Prediction from MS Data (talk)"
+      institution: Computational Tools for Native Mass Spectrometry Workshop, Columbus, OH
+      year: 2021
+    - title: "Predicting accurate protein structures using ion mobility mass spectrometry data (poster)"
+      institution: Rosetta Winter Conference, New York, NY
+      year: 2020
+
+- title: Certifications
+  type: nested_list
+  contents:
+    - title: NVIDIA Deep Learning Institute
+      items:
+        - Fundamentals of Deep Learning
+        - "Data Parallelism: How to Train Deep Learning Models on Multiple GPUs"
+        - "Model Parallelism: Building and Deploying Large Neural Networks"
+    - title: Schrödinger Molecular Modeling Suite
+      items:
+        - Free Energy Calculations for Drug Design with FEP+
+        - High-Throughput Virtual Screening for Hit Finding and Evaluation
