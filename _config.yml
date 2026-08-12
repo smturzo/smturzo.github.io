@@ -618,20 +618,25 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# The CV page is driven by _data/cv.yml. _layouts/cv.liquid only falls back to
+# that file when `site.data.resume` does not exist, so the JSON Resume loader
+# below is intentionally left disabled. Re-enable it only if you switch the CV
+# over to assets/json/resume.json instead.
+#
+jekyll_get_json: []
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
+#
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references
